@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	font-size: 22px;
+	color: #666;
+	text-decoration: none;
+}
+
+/*轮播图整体设置*/
+.main {
+	width: 1200px;
+	height: 536px;
+	margin: 30px auto;
+}
+
+/*菜单*/
+.menu {
+	height: 76px;
+	width: 100%;
+}
+
+.menu > span {
+	float: left;
+	width: 25%;
+	height: 100%;
+	line-height: 76px;
+	text-align: center;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.menu-attr {
+	background: #ffcc00;
+}
+
+/*banner*/
+.banner {
+	width: 1200px;
+	height: 460px;
+	overflow: hidden;
+}
+
+.banner-pic {
+	width: 1200px;
+	height: 460px;
+	display: none;
+}
+
+.banner-pic1 {
+	background-image: url(../img/1.jpg);
+	display: block;
+}
+
+.banner-pic2 {
+	background-image: url(../img/3.jpg);
+}
+
+.banner-pic3 {
+	background-image: url(../img/4.jpg);
+}
+
+.banner-pic4 {
+	background-image: url(../img/5.jpg);
+}
